@@ -1,0 +1,183 @@
+.login-content{
+    width: 400px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 1050px;
+    display: flex;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+}
+.shop-title{
+    color: #1c7430;
+    text-align: center;
+}
+.btn-style{
+   text-align: center;
+}
+.login-content > div{
+    width: 100%;
+    height: 80px;
+}
+.login-content > div:nth-child(2) > form{
+    justify-content: space-around;
+}
+/*主界面的样式*/
+.page-content{
+    width: 100%;
+    display: flex;
+}
+#left{
+    height: 100%;
+    background-color: green;
+    margin: 0;
+}
+.ul-style{
+    width:100%;
+    list-style: none;
+    background: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 15px;
+    padding: 0;
+    color: green;
+}
+.ul-style > li{
+    width: 100%;
+    margin: 2px auto;
+    padding: 0;
+    border-bottom: 1px solid green;
+}
+#tit-style{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#li-end{
+    border-bottom: none;
+}
+#ifr-style{
+    margin-top: 80px;
+    margin-left: 80px;
+    width: 1000px;
+    height: 600px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.framestyle{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.foot{
+    width: 1200px;
+    height: 30px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 350px;
+    margin: 0;
+    padding: 0;
+}
+.foot p{
+    padding: 0;
+    margin: 7px auto;
+    justify-content: center;
+}
+.back{
+    color: green;
+}
+/*VIP界面样式*/
+.search-style > form{
+    display: flex;
+    align-items: center;
+}
+.search-style > form > input:first-child{
+    width: 200px;
+    height: 30px;
+    border: 1px solid green;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-right: 0;
+    box-sizing: border-box;
+}
+.search-style form > i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid green;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+    border-left:0 ;
+    line-height: 30px;
+    margin: 0;
+}
+.search-style > form > input:last-child{
+    position: relative;
+    right: 20px;
+    opacity: 0;
+}
+.listshowimg{
+    width: 5px;
+    height: 5px;
+}
+/*注册页面样式*/
+.body-style{
+    background: url("../img/loginImg.jpg") no-repeat right bottom;
+}
+.register-stytle{
+    width: 500px;
+    z-index: 3;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+}
+#op{
+    background: lightgray;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+/*用户主界面样式*/
+
+.store-style{
+    width: 1000px;
+    height:100%;
+    position: absolute;
+    right: 200px;
+    bottom: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+html body{
+    margin: 0;
+    padding: 0;
+}
+#framework{
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+/*商品的样式*/
+.th-style{
+    color: green;
+    font-family: 方正舒体;
+}
+#goodstable{
+    margin-top: 20px;
+}
+#goodstable > th ,td{
+    width: 400px;
+    /*text-align: center;*/
+}
+#goodstable > tr{
+    text-align: center;
+}
